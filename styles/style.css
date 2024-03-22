@@ -75,12 +75,13 @@ body {
   border: 1px #839064;
   border-radius: 14px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: #b5b899;
   color: #574a3d;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) 
 }
 
 
