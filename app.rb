@@ -47,7 +47,7 @@ post("/ruff_day") do
   "Unleash your potential, the world is your dog park.",
   "Be the person your dog thinks you are – kind, brave, and unstoppable.",
   "When life gets tough, just paws and enjoy the simple things.",
-  "Stay pawsitive, even when life throws you a bone.",
+  "Stay pawsitive, even when life throws you in the doghouse.",
   "Keep fetching your dreams, persistence is key.",
   "Dig deep for the courage to overcome obstacles.",
   "Sniff out opportunity and run towards it with all your might.",
