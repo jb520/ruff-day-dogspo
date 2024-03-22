@@ -6,17 +6,11 @@ body {
   font-family: "Alegreya", serif;
 }
 
-.header {
-  position: sticky;
-  width: 100%;
-  padding: 0px
-  font-weight: 500;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
 
+a {
+  color: #574a3d
+  text-decoration: none;
+}
 .dog_pics {
   width: 500px;
   height: auto;
