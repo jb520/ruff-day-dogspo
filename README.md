@@ -1,18 +1,7 @@
-# sinatra-template
+# Ruff Day Dogspo
 
-Use this repository to create new Sinatra apps. 
+Ruff Day Dogspo is a Ruby application built using Sinatra. 
+It provides the user with a random picture of a dog using [TheDogAPI](https://thedogapi.com/) along with a motivational quote that contains a dog pun or reference. The goal was to provide a light experience that could brighten someone's mood.
+The color palette was generated using [realtimecolors.com](realtimecolors.com) and the font was sourced from [google fonts](https://fonts.google.com/specimen/Alegreya). 
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
-
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+Future plans for the app include potentially integrating Petfinder's API to display adoptable dogs with the aim being to help more pets find forever homes. :)
