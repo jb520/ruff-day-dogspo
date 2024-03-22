@@ -1,10 +1,12 @@
-<div class="img_container">
-<img src="<%= @img_url %>" alt="<%= @dog_name %>" class="dog_pics">
-</div>
+<div class="result_container">
+  <div class="img_container">
+  <img src="<%= @img_url %>" alt="<%= @dog_name %>" class="dog_pics">
+  </div>
 
-<div class="quote">
-  <blockquote class="quote_text" >
-    <h1><%= @dog_inspo %></h1>
-    <footer><form action="/ruff_day" method="post"><button class="btn"> Re-roll </button></form></footer>
-  </blockquote>
+  <div class="quote">
+    <blockquote class="quote_text" >
+      <h1><%= @dog_inspo %></h1>
+      <footer><form action="/ruff_day" method="post"><button class="btn"> Re-roll </button></form></footer>
+    </blockquote>
+  </div>
 </div>
