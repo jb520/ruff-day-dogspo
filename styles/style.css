@@ -6,11 +6,49 @@ body {
   font-family: "Alegreya", serif;
 }
 
-
-a {
-  color: #574a3d
-  text-decoration: none;
+/* navigation styling */
+.header {
+  position: sticky;
+  width: 100%;
+  padding: 0px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
+
+.logo {
+  font-size: 30px;
+  color:#574a3d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #574a3d;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: #b5b899;
+  border-bottom: solid 2px #b5b899;
+}
+
+/* styling for home page */
+.btn {
+  
+}
+
+
+
+/* styling for process_form.erb */
+
 .dog_pics {
   width: 500px;
   height: auto;
@@ -19,5 +57,4 @@ a {
 
 .quote {
   width: 50%;
-  
 }
